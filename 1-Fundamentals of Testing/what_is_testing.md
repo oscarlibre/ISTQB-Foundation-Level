@@ -1,4 +1,4 @@
-## What is Testing?
+# What is Testing?
 
 Software testing is a way to assess the quality of the software and reduce the risk of sofware failure in operation.
 
