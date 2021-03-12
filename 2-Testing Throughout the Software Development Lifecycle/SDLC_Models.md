@@ -5,7 +5,7 @@ software development project, and how the activities relate to one another logic
 There are a number of different software development lifecycle models, each of which requires different
 approaches to testing. 
 
-### 2.1.1 Software Development and Software Testing 
+### Software Development and Software Testing 
 
 In any software development lifecycle model, there are several characteristics of good testing: 
 
@@ -66,4 +66,12 @@ new features
 enhancement or feature upon completion, or can group features together to release at once 
     - Spiral: Involves creating experimental increments, some of which may be heavily re-worked or
 even abandoned in subsequent development work 
+
+### Software Development Lifecycle Models in Context 
+
+- Software development lifecycle models must be selected and adapted to the context of project and product characteristics. 
+- An appropriate software development lifecycle model should be selected and adapted based on the project goal, the type of product being developed, business priorities and identified product and project risks (e.g an administrative system is different of a safety-critical system). 
+- Depending on the context of the project, it may be necessary to combine or reorganize test levels and/or test activities. 
+- Software development lifecycle models themselves may be combined, for example IoT systems, which consist of many different objects, such as devices, products, and services, typically apply separate software development lifecycle models for each object. 
+
 
