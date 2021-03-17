@@ -68,3 +68,34 @@ interfaces provided by, external organizations (e.g., web services). In this cas
 organization does not control the external interfaces, which can create various challenges for
 testing (e.g., ensuring that test-blocking defects in the external organization’s code are resolved,arranging for test environments, etc.). System integration testing may be done after system testing or in parallel with ongoing system test activities (in both sequential development and iterative and incremental development).
 
+
+### System Testing 
+
+*Objectives:* System testing focuses on the behavior and capabilities of a whole system or product, often considering the end-to-end tasks the system can perform and the non-functional behaviors it exhibits while performing those tasks. Objectives of system testing include: 
+
+- Reducing risk 
+- Verifying whether the functional and non-functional behaviors of the system are as designed and
+specified 
+- Validating that the system is complete and will work as expected 
+- Building confidence in the quality of the system as a whole 
+- Finding defects 
+- Preventing defects from escaping to higher test levels or production 
+
+---
+**NOTE**
+
+In some cases automated system regression tests provide confidence that changes
+have not broken existing features or end-to-end capabilities. System testing often produces information that is used by stakeholders to make release decisions. System testing may also satisfy legal or regulatory requirements or standards. The test environment should ideally correspond to the final target or production environment.
+
+---
+
+### Acceptance Testing 
+
+*Objectives:* It typically focuses on the behavior and capabilities of a whole
+system or product. Objectives of acceptance testing include: 
+
+- Establishing confidence in the quality of the system as a whole 
+- Validating that the system is complete and will work as expected 
+- Verifying that functional and non-functional behaviors of the system are as specified 
+
+
