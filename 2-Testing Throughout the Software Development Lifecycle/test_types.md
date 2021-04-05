@@ -108,3 +108,15 @@ very important. This is particularly relevant for Internet of Things systems whe
 devices) are frequently updated or replaced.
 Regression test suites are run many times and generally evolve slowly, so regression testing is a strong
 candidate for automation. Automation of these tests should start early in the project.
+
+
+---
+**NOTE**
+
+It is possible to perform any of the test types mentioned above at any test level.
+
+---
+
+
+
+
