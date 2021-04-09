@@ -40,3 +40,68 @@ especially the logging of defects, open points, and decisions, there is often no
 ---
 
 Further, more detailed roles are possible, as described in ISO standard ![ISO/IEC 20246]("https://www.iso.org/standard/67407.html").
+
+
+### Review Types 
+
+One of the main objectives of reviews is to uncover defects. All review types can aid in defect detection, and the selected review type should be based on the needs of the project, available resources, product type and risks, business domain, and company culture, among other selection criteria. The following lists the four most common types of reviews and their associated attributes.
+
+**Informal review (e.g., buddy check, pairing, pair review)** 
+
+- Main purpose: detecting potential defects 
+- Possible additional purposes: generating new ideas or solutions, quickly solving minor problems 
+- Not based on a formal (documented) process 
+- May not involve a review meeting 
+- May be performed by a colleague of the author (buddy check) or by more people 
+- Results may be documented 
+- Varies in usefulness depending on the reviewers 
+- Use of checklists is optional 
+- Very commonly used in Agile development
+
+**Walkthrough**
+
+- Main purposes: find defects, improve the software product, consider alternative implementations,
+evaluate conformance to standards and specifications 
+- Possible additional purposes: exchanging ideas about techniques or style variations, training of
+participants, achieving consensus 
+- Individual preparation before the review meeting is optional 
+- Review meeting is typically led by the author of the work product 
+- Scribe is mandatory 
+- Use of checklists is optional 
+- May take the form of scenarios, dry runs, or simulations 
+- Potential defect logs and review reports are produced 
+- May vary in practice from quite informal to very formal
+
+**Technical review** 
+
+- Main purposes: gaining consensus, detecting potential defects 
+- Possible further purposes: evaluating quality and building confidence in the work product,
+generating new ideas, motivating and enabling authors to improve future work products,
+considering alternative implementations 
+- Reviewers should be technical peers of the author, and technical experts in the same or other
+disciplines 
+- Individual preparation before the review meeting is required 
+- Review meeting is optional, ideally led by a trained facilitator (typically not the author) 
+- Scribe is mandatory, ideally not the author 
+- Use of checklists is optional 
+- Potential defect logs and review reports are produced 
+
+**Inspection**
+
+- Main purposes: detecting potential defects, evaluating quality and building confidence in the work
+product, preventing future similar defects through author learning and root cause analysis 
+- Possible further purposes: motivating and enabling authors to improve future work products and
+the software development process, achieving consensus 
+- Follows a defined process with formal documented outputs, based on rules and checklists 
+- Uses clearly defined roles,  which are mandatory, and may include a dedicated reader 
+- Individual preparation before the review meeting is required 
+- Reviewers are either peers of the author or experts in other disciplines that are relevant to the
+work product 
+- Specified entry and exit criteria are used 
+- Scribe is mandatory 
+- Review meeting is led by a trained facilitator (not the author)
+- Author cannot act as the review leader, reader, or scribe 
+- Potential defect logs and review report are produced 
+- Metrics are collected and used to improve the entire software development process, including the
+inspection process 
+
