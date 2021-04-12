@@ -159,3 +159,42 @@ performance tester, etc.). The same principles apply as in perspective-based rea
 are similar.
 
 
+### Success Factors for Reviews
+
+Organizational success factors for reviews include: 
+
+- Each review has clear objectives, defined during review planning, and used as measurable exit
+criteria 
+- Review types are applied which are suitable to achieve the objectives and are appropriate to the
+type and level of software work products and participants 
+- Any review techniques used, such as checklist-based or role-based reviewing, are suitable for
+effective defect identification in the work product to be reviewed 
+- Any checklists used address the main risks and are up to date 
+- Large documents are written and reviewed in small chunks, so that quality control is exercised by
+providing authors early and frequent feedback on defects 
+- Participants have adequate time to prepare 
+- Reviews are scheduled with adequate notice 
+- Management supports the review process (e.g., by incorporating adequate time for review
+activities in project schedules) 
+- Reviews are integrated in the company's quality and/or test policies.
+
+People-related success factors for reviews include: 
+
+- The right people are involved to meet the review objectives, for example, people with different
+skill sets or perspectives, who may use the document as a work input 
+- Testers are seen as valued reviewers who contribute to the review and learn about the work
+product, which enables them to prepare more effective tests, and to prepare those tests earlier 
+- Participants dedicate adequate time and attention to detail 
+- Reviews are conducted on small chunks, so that reviewers do not lose concentration during
+individual review and/or the review meeting (when held) 
+- Defects found are acknowledged, appreciated, and handled objectively 
+- The meeting is well-managed, so that participants consider it a valuable use of their time 
+- The review is conducted in an atmosphere of trust; the outcome will not be used for the
+evaluation of the participants 
+- Participants avoid body language and behaviors that might indicate boredom, exasperation, or
+hostility to other participants 
+- Adequate training is provided, especially for more formal review types such as inspections 
+- A culture of learning and process improvement is promoted
+
+
+
