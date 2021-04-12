@@ -105,3 +105,57 @@ work product
 - Metrics are collected and used to improve the entire software development process, including the
 inspection process 
 
+
+### Applying Review Techniques 
+
+Examples of different individual review techniques for various review types are listed below.
+
+**Ad hoc**
+
+In an ad hoc review, reviewers are provided with little or no guidance on how this task should be
+performed. Reviewers often read the work product sequentially, identifying and documenting issues as
+they encounter them. Ad hoc reviewing is a commonly used technique needing little preparation. This
+technique is highly dependent on reviewer skills and may lead to many duplicate issues being reported by
+different reviewers.
+
+**Checklist-based**
+
+A checklist-based review is a systematic technique, whereby the reviewers detect issues based on
+checklists that are distributed at review initiation (e.g., by the facilitator). A review checklist consists of a
+set of questions based on potential defects, which may be derived from experience. Checklists should be
+specific to the type of work product under review and should be maintained regularly to cover issue types
+missed in previous reviews. The main advantage of the checklist-based technique is a systematic
+coverage of typical defect types. Care should be taken not to simply follow the checklist in individual
+reviewing, but also to look for defects outside the checklist.
+
+**Scenarios and dry runs**
+
+In a scenario-based review, reviewers are provided with structured guidelines on how to read through the
+work product. A scenario-based review supports reviewers in performing “dry runs” on the work product
+based on expected usage of the work product (if the work product is documented in a suitable format
+such as use cases). These scenarios provide reviewers with better guidelines on how to identify specific
+defect types than simple checklist entries. As with checklist-based reviews, in order not to miss other
+defect types (e.g., missing features), reviewers should not be constrained to the documented scenarios.
+
+**Perspective-based**
+
+In perspective-based reading, similar to a role-based review, reviewers take on different stakeholder
+viewpoints in individual reviewing. Typical stakeholder viewpoints include end user, marketing, designer,
+tester, or operations. Using different stakeholder viewpoints leads to more depth in individual reviewing
+with less duplication of issues across reviewers. In addition, perspective-based reading also requires the reviewers 
+to attempt to use the work product under review to generate the product they would derive from it. For example, a tester 
+would attempt to generate draft acceptance tests if performing a perspective-based reading on a requirements specification
+to see if all the necessary information was included. Further, in perspective-based reading, checklists are expected to be used.
+Empirical studies have shown perspective-based reading to be the most effective general technique for
+reviewing requirements and technical work products. A key success factor is including and weighing
+different stakeholder viewpoints appropriately, based on risks. 
+
+**Role-based**
+
+A role-based review is a technique in which the reviewers evaluate the work product from the perspective
+of individual stakeholder roles. Typical roles include specific end user types (experienced, inexperienced,
+senior, child, etc.), and specific roles in the organization (user administrator, system administrator,
+performance tester, etc.). The same principles apply as in perspective-based reading because the roles
+are similar.
+
+
