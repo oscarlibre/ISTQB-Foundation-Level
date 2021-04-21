@@ -94,3 +94,47 @@ conditions, some of which might otherwise be overlooked. It also helps in findin
 requirements. It may be applied to all situations in which the behavior of the software depends on a
 combination of conditions, at any test level. 
 
+### State Transition Testing
+
+Components or systems may respond differently to an event depending on current conditions or previous
+history (e.g., the events that have occurred since the system was initialized). The previous history can be
+summarized using the concept of states. A state transition diagram shows the possible software states,
+as well as how the software enters, exits, and transitions between states. A transition is initiated by an
+event (e.g., user input of a value into a field). The event results in a transition. The same event can result
+in two or more different transitions from the same state. The state change may result in the software
+taking an action (e.g., outputting a calculation or error message).
+
+A state transition table shows all valid transitions and potentially invalid transitions between states, as well
+as the events, and resulting actions for valid transitions. State transition diagrams normally show only the
+valid transitions and exclude the invalid transitions.
+
+Tests can be designed to cover a typical sequence of states, to exercise all states, to exercise every
+transition, to exercise specific sequences of transitions, or to test invalid transitions.
+State transition testing is used for menu-based applications and is widely used within the embedded
+software industry. The technique is also suitable for modeling a business scenario having specific states
+or for testing screen navigation. The concept of a state is abstract – it may represent a few lines of code
+or an entire business process.
+
+Coverage is commonly measured as the number of identified states or transitions tested, divided by the
+total number of identified states or transitions in the test object, normally expressed as a percentage. For
+more information on coverage criteria for state transition testing.
+
+### Use Case Testing
+
+Tests can be derived from use cases, which are a specific way of designing interactions with software
+items. They incorporate requirements for the software functions. Use cases are associated with actors
+(human users, external hardware, or other components or systems) and subjects (the component or
+system to which the use case is applied).
+
+Each use case specifies some behavior that a subject can perform in collaboration with one or more
+actors (UML 2.5.1 2017). A use case can be described by interactions and activities, as well as
+preconditions, postconditions and natural language where appropriate. Interactions between the actors
+and the subject may result in changes to the state of the subject. Interactions may be represented
+graphically by work flows, activity diagrams, or business process models.
+
+A use case can include possible variations of its basic behavior, including exceptional behavior and error
+handling (system response and recovery from programming, application and communication errors, e.g.,
+resulting in an error message). Tests are designed to exercise the defined behaviors (basic, exceptional
+or alternative, and error handling). Coverage can be measured by the number of use case behaviors
+tested divided by the total number of use case behaviors, normally expressed as a percentage.
+
