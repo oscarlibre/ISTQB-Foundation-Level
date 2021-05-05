@@ -91,10 +91,12 @@ Typical entry criteria include:
 
 - Availability of testable requirements, user stories, and/or models (e.g., when following a modelbased testing strategy) 
 - Availability of test items that have met the exit criteria for any prior test levels
-Availability of test environment 
+- Availability of test environment 
 - Availability of necessary test tools 
 - Availability of test data and other necessary resources
+
 Typical exit criteria include: 
+
 - Planned tests have been executed 
 - A defined level of coverage (e.g., of requirements, user stories, acceptance criteria, risks, code)
 has been achieved 
@@ -103,16 +105,69 @@ has been achieved
 - The evaluated levels of reliability, performance efficiency, usability, security, and other relevant
 quality characteristics are sufficient
 
-Even without exit criteria being satisfied, it is also common for test activities to be curtailed due to the
-budget being expended, the scheduled time being completed, and/or pressure to bring the product to
+Even without exit criteria being satisfied, it is also common for test activities to be curtailed due to the budget being expended, the scheduled time being completed, and/or pressure to bring the product to
 market. It can be acceptable to end testing under such circumstances, if the project stakeholders and
 business owners have reviewed and accepted the risk to go live without further testing. 
 
 
+### Factors Influencing the Test Effort
+
+Test effort estimation involves predicting the amount of test-related work that will be needed in order to
+meet the objectives of the testing for a particular project, release, or iteration. Factors influencing the test effort may include characteristics of the product, characteristics of the development process,
+characteristics of the people, and the test results, as shown below. 
+
+Product characteristics 
+
+- The risks associated with the product 
+- The quality of the test basis 
+- The size of the product 
+- The complexity of the product domain 
+- The requirements for quality characteristics (e.g., security, reliability) 
+- The required level of detail for test documentation 
+- Requirements for legal and regulatory compliance
+
+Development process characteristics 
+
+- The stability and maturity of the organization 
+- The development model in use 
+- The test approach 
+- The tools used 
+- The test process 
+- Time pressure
+
+People characteristics 
+
+- The skills and experience of the people involved, especially with similar projects and products
+(e.g., domain knowledge) 
+- Team cohesion and leadership
+
+Test results 
+
+- The number and severity of defects found 
+- The amount of rework required
 
 
+### Test Estimation Techniques
 
+There are a number of estimation techniques used to determine the effort required for adequate testing.
+Two of the most commonly used techniques are: 
 
+- *The metrics-based technique*: estimating the test effort based on metrics of former similar
+projects, or based on typical values 
+- *The expert-based technique*: estimating the test effort based on the experience of the owners of
+the testing tasks or by experts
+
+For example, in Agile development, burndown charts are examples of the metrics-based approach as
+effort remaining is being captured and reported, and is then used to feed into the team’s velocity to
+determine the amount of work the team can do in the next iteration; whereas planning poker is an
+example of the expert-based approach, as team members are estimating the effort to deliver a feature
+based on their experience.
+
+Within sequential projects, defect removal models are examples of the metrics-based approach, where
+volumes of defects and time to remove them are captured and reported, which then provides a basis for
+estimating future projects of a similar nature; whereas the Wideband Delphi estimation technique is an
+example of the expert-based approach in which a group of experts provides estimates based on their
+experience.
 
 
 
